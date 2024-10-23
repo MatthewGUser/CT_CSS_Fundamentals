@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Recipe Title Styling */
+#recipe-title {
+    font-size: 2.5em;
+    font-family: 'Georgia', serif;
+    color: #4caf50;
+}
+
+/* Ingredient and Steps Styling */
+.ingredients, .steps {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.steps li {
+    margin-bottom: 10px;
+}
+
+/* Hover effect for links */
+.source-link {
+    color: #008cba;
+    text-decoration: none;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+    color: #005f5f;
+}
+
+/* Styling for Submit Recipe Button */
+#recipe-submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#recipe-submit-button:hover {
+    background-color: #45a049;
+}
+
+/* Form Styling */
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
